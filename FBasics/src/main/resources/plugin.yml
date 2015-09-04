@@ -6,11 +6,11 @@ authors: [Sudzzy]
 softdepend: [Vault, Factions, MassiveCore]
 
 commands:
-  crate:
+  fcrate:
     aliases: [fcrate]
     description: Access to mystery crates
     usage: /<command>
-    permission: fbasics.command.crate
+    permission: fbasics.command.fcrate
     permission-message: '§cYou do not have permission to use that command.'
   fbasics:
     aliases: [fb]
@@ -59,11 +59,11 @@ permissions:
   fbasics.user:
     default: true
     children:
-      fbasics.command.crate: true
-      fbasics.command.crate.balance: true
-      fbasics.command.crate.balance.other: true
-      fbasics.command.crate.open: true
-      fbasics.command.crate.pay: true
+      fbasics.command.fcrate: true
+      fbasics.command.fcrate.balance: true
+      fbasics.command.fcrate.balance.other: true
+      fbasics.command.fcrate.open: true
+      fbasics.command.fcrate.pay: true
       fbasics.command.fbasics: true
       fbasics.command.wilderness: true
 
