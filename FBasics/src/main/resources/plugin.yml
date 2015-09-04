@@ -7,7 +7,7 @@ softdepend: [Vault, Factions, MassiveCore]
 
 commands:
   crate:
-    aliases: [crates]
+    aliases: [fcrate]
     description: Access to mystery crates
     usage: /<command>
     permission: fbasics.command.crate
