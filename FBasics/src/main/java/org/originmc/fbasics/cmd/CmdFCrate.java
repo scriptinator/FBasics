@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-public class CmdCrate implements CommandExecutor {
+public class CmdFCrate implements CommandExecutor {
 
     private static final String PERMISSION_BALANCE = "fbasics.commands.crate.balance";
 
@@ -54,7 +54,7 @@ public class CmdCrate implements CommandExecutor {
 
     private final Map<String, Crate> crates = new HashMap<>();
 
-    public CmdCrate(FBasics plugin) {
+    public CmdFCrate(FBasics plugin) {
         // Load all the settings for the Crates command
         FileConfiguration config = plugin.getConfig();
         FileConfiguration language = plugin.getLanguage();
